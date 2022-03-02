@@ -77,6 +77,9 @@
         margin: auto;
         display: flex;
         text-align: initial;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 200px;
         height: 200px;
         cursor: pointer;
@@ -90,6 +93,8 @@
         color: white;
         background: linear-gradient(-180deg, #333, brown);
         display: flex;
+        flex-direction: row;
+        /* align-items: center; */
         align-content: center;
         justify-content: center;
         transition: 0.5s;
@@ -112,6 +117,13 @@
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
+      }
+      .hexagon span {
+        z-index: 1;
+        margin: auto;
+        height: 40%;
+        color: black;
+        /* font-size: x-large; */
       }
 
       .hexagon:before,
@@ -440,27 +452,33 @@
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/html.png" alt="" />
+              
             </div>
+            <span>HTML</span>
           </div>
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/CSS3.png" alt="" />
             </div>
+            <span>CSS3</span>
           </div>
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/vue.png" alt="" />
             </div>
+            <span>VueJS</span>
           </div>
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/angular.png" alt="" />
             </div>
+            <span>Angular</span>
           </div>
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/React.png" alt="" />
             </div>
+            <span>ReactJs</span>
           </div>
         </div>
         <div class="row">
@@ -468,26 +486,31 @@
               <div class="hexagon">
                 <img src="images/icons/laravel.png" alt="" />
               </div>
+              <span>Laravel</span>
             </div>
             <div class="hexagon-wrapper">
               <div class="hexagon">
                 <img src="images/icons/nodejs.png" alt="" />
               </div>
+              <span>Node.Js</span>
             </div>
             <div class="hexagon-wrapper">
               <div class="hexagon">
                 <img src="images/icons/mongodb.png" alt="" />
               </div>
+              <span>MongoDB</span>
             </div>
             <div class="hexagon-wrapper">
               <div class="hexagon">
                 <img src="images/icons/rest-api.png" alt="" />
               </div>
+              <span>REST APIs</span>
             </div>
             <div class="hexagon-wrapper">
               <div class="hexagon">
                 <img src="images/icons/kotlin.png" alt="" />
               </div>
+              <span>Kotlin</span>
             </div>
           </div>
       </div>
