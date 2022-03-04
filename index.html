@@ -85,13 +85,18 @@
         cursor: pointer;
       }
 
+      .frontend .hexagon {
+        background: linear-gradient(-180deg, #333, brown);
+      }
+      .backend .hexagon {
+        background: linear-gradient(180deg, #000, brown);
+      }
       .hexagon {
         position: relative;
         width: 46%;
         height: 80%;
         margin: auto;
         color: white;
-        background: linear-gradient(-180deg, #333, brown);
         display: flex;
         flex-direction: row;
         /* align-items: center; */
@@ -481,7 +486,7 @@
     <section class="row skills">
       <div class="container-fluid">
         <div class="header">Skill Sets</div>
-        <div class="row">
+        <div class="row frontend">
           <div class="hexagon-wrapper">
             <div class="hexagon">
               <img src="images/icons/html.png" alt="" />
@@ -514,7 +519,7 @@
             <span>ReactJs</span>
           </div>
         </div>
-        <div class="row">
+        <div class="row backend">
             <div class="hexagon-wrapper">
               <div class="hexagon">
                 <img src="images/icons/laravel.png" alt="" />
